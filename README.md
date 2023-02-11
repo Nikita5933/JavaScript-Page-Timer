@@ -1,7 +1,7 @@
 # Page Timer
 
 ## Description
-Simple Page Timer, with deadline date and addZero function. The timer takes deadline date and counts down from the current date Is well suited for stock completion date. The timer displays:
+Simple Page Timer, with deadline date and addZero function. The timer takes deadline date and counts down from the current date. Is well suited for stock completion date. The timer displays:
 
 * days
 * hours
