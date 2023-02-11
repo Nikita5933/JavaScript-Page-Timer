@@ -1,7 +1,7 @@
 # Page Timer
 
 ## Description
-Simple Page Timer, with deadline date and addZero function. The timer takes deadline date and counts down from the current date. Is well suited for stock completion date. The timer displays:
+Simple Page Timer, with deadline date and 'addZero' function. The timer takes deadline date and counts down from the current date. Is well suited for stock completion date. The timer displays:
 
 * days
 * hours
@@ -37,6 +37,6 @@ The timer can display zero + number if numbers less than 10.
 ```
 
 * Set deadline(the end of the timer) - customize variable 'deadline' in format: 'XXXX-XX-XX'.
-* In order to get: timer's days, hours, minutes, seconds - change variables: days, hours, minutes, seconds in the setClock function.
-* In order to get: timer's block - change the setClock function call(change first param - timer selector).
-* Default timer starts with addZero function(if numbers less than 10 adds zero to number), if you need to disable function: delete addZero func and delete it function call in updateClock function. 
+* In order to get: timer's days, hours, minutes, seconds - change variables: 'days', 'hours', 'minutes', 'seconds' in the 'setClock' function.
+* In order to get: timer's block - change the 'setClock' function call(change first param - timer selector).
+* Default timer starts with 'addZero' function(if numbers less than 10 adds zero to number), if you need to disable function: delete 'addZero' func and delete it function call in 'updateClock' function. 
