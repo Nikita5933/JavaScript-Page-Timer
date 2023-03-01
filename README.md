@@ -12,7 +12,7 @@ The timer can display zero + number if numbers less than 10.
 
 ## Customization
 ### HTML-structure:
-```
+```html
 <div class="timer__wrapper">
         <div class="title">The end of the Timer:</div>
         <div class="timer">
